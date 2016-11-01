@@ -1,1 +1,4 @@
-Propel yourself to action is a chrome extension that periodically pops up a randomly chosen quote from a list of quotes.
+## Propel
+
+# Propel Yourself To Action
+A chrome extension that periodically pops up a quote that is randomly chosen from a list of quotes.
