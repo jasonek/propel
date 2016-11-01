@@ -1,0 +1,27 @@
+{
+  "name": "ennspire",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "author": "descript",
+  "description": "Periodically displays pop-up notifications with default quotes or quotes of user's choosing",
+  "icons": { "128": "img/quill.png" },
+  "permissions": [
+    "background",
+    "notifications",
+    "alarms",
+    "idle"
+  ],
+  "background": {
+    "scripts": [
+      "/js/jquery.js",
+      "/js/options.js",
+      "/js/background.js"
+    ],
+    "persistent": true
+  },
+   "browser_action": {
+    "default_title": "ennspire",
+    "default_icon": "img/quill.png",
+    "default_popup": "index.html"
+  }
+}
