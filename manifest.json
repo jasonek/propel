@@ -1,5 +1,5 @@
 {
-  "name": "ennspire",
+  "name": "Propel",
   "version": "0.0.1",
   "manifest_version": 2,
   "author": "descript",
@@ -15,12 +15,13 @@
     "scripts": [
       "/js/jquery.js",
       "/js/options.js",
-      "/js/background.js"
+      "/js/background.js",
+      "/js/bootstrap.min.js"
     ],
     "persistent": true
   },
    "browser_action": {
-    "default_title": "ennspire",
+    "default_title": "Propel",
     "default_icon": "img/quill.png",
     "default_popup": "index.html"
   }

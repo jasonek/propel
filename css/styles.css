@@ -153,6 +153,13 @@ input[type="number"] {
     background: #495791;
 }
 
+.upload {
+    font-size: 12px;
+}
+
+#modalButton {
+    margin-top: 50px;
+}
 .onoffswitch {
     margin: 0 auto;
     position: relative;
